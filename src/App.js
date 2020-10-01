@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Blogs from './components/Blogs'
 
 
 class BlogPost extends Component {
@@ -57,10 +58,16 @@ class BlogPost extends Component {
       </form>
       )
     }
-  };
 
-
-
+  //  render() {
+  //
+  //   return (
+  //     <div className='row'>
+  //     <Blogs/>
+  //     </div>
+  //     )
+  //   } }
+};
 
 
 
